@@ -1,0 +1,77 @@
+.checkoutProduct {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.checkoutProduct__info {
+    padding-left: 20px;
+    margin:auto;
+    width: 90%;
+    height:100%;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    z-index:2000;
+
+}
+
+
+
+.checkoutProduct__info > button {
+    background: #ff803c;
+    color:white;
+    border: 0px solid;
+    padding:0.9rem 2rem;
+    margin-top: 1px;
+    font-weight: 600;
+    text-align: left;
+    border-radius: 2rem;
+    /* width:40%; */
+    
+}
+
+
+.checkoutProduct__image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+  }
+
+.checkoutProduct__rating {
+    display: flex;
+    color:#ff5900;
+  }
+
+.checkoutProduct__title {
+    font-family: "Sofia Sans Extra Condensed";
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.checkoutProduct__price {
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-top: 4px;
+    padding-bottom: 10px;
+  }
+
+
+  @media only screen and (max-width: 1023px) {
+
+    .checkoutProduct {
+        flex-direction: column;
+        margin:5vh auto;
+        
+    }
+
+    .checkoutProduct__image {
+        object-fit:cover;
+        margin-top: -1vh;
+        margin-bottom: 2vh;
+        width: 100%;
+        height: 100%;
+      }
+
+  }

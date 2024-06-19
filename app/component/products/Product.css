@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cherry+Bomb+One&family=Nothing+You+Could+Do&family=Reenie+Beanie&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1000;1,1000&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+    width: 90%;
+    min-width: 100px;
+    background-color:#ffffff;
+    transition: 0.6s;
+    
+  }
+
+  .product:hover {
+    width: 94%;
+    background-color:#ffb891d7;
+    border-radius: 20px;
+  }
+
+  
+  .product__rating {
+    display: flex;
+    color: #ff5900;
+    z-index: 5;
+  }
+
+  .product__imageContainer {
+    height: 200px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    transition: 1s;
+  }
+
+ 
+  .product__imageContainer  > img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+    z-index: 1;
+    transition: 1s;
+  }
+
+  
+  .product > button {
+    background: #ff5900;
+    color:white;
+    width:80%;
+    border: 0px solid;
+    border-radius: 2rem;
+    padding: 12px;
+    margin-bottom: 3vh;
+    margin-top: 4px;
+    /* border-color: #a88734 #9c7e31 #846a29; */
+    transition: 0.5s;
+    font-weight: 600;
+  }
+
+  .product > button:hover {
+    background: #ffffff;
+    color:#ff5900;
+  
+  }
+  
+  .product__price {
+    margin-top: 5px;
+    font-size: 1.28rem;
+ 
+  }
+  
+
+  .product__brand{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    font-family: "Sofia Sans Extra Condensed";
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+    font-size: 2rem;
+    transition: 1s;
+   
+  }
+
+  .product__brand-category{
+
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    font-family: "Sofia Sans";
+    font-optical-sizing: auto;
+    font-weight:200;
+    font-style: normal;
+    font-size: 1.5rem;
+    transition: 1s;
+
+  }
+
+
+
+  .product__info_description {
+    font-size:1rem;
+    min-height: 100px;
+    margin-bottom: auto;
+    width: 80%;
+    text-align: left;
+    z-index:1000;
+  }
+
+
+  .product__info {
+    font-size:1rem;
+    /* min-height: 200px; */
+    margin-bottom: auto;
+    width: 80%;
+    text-align: left;
+    z-index:1000;
+  }
+
+  hr{
+    width:100%;
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding-top:1vh 0 0 0;
+    width: 90%;
+    min-width: 100px;
+    background-color:#ffffff;
+    transition: 0.6s;
+  }
+
+  .product:hover {
+
+    width: 94%;
+    background-color:#ffb891d7;
+    border-radius: 20px;
+  }
+  
+  .product__imageContainer {
+    height: 200px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    transition: 1s;
+  }
+
+  .product__imageContainer  > img {
+    max-height: 200px;
+    object-fit: contain;
+ 
+  }
+
+  .product > button {
+    width:95%;
+    margin-bottom: 1vh;
+
+  }
+
+
+  .product__brand{
+    width:95%;
+  }
+
+  .product__info_description{
+    width:95%;
+  }
+
+  .product__info{
+    width:95%;
+  }
+  
+  
+}
+
+
+
+
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+
+
+    .product {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* justify-content: flex-end; */      
+      padding-top:1vh;
+      width: 60%;
+      min-width: 100px;
+      background-color:#ffffff;
+      transition: 0.6s;
+      
+    }
+
+    .product:hover {
+
+      width: 64%;
+      background-color:#ffb891d7;
+      border-radius: 20px;
+    }
+    
+    .product__imageContainer {
+      height: 200px; 
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      transition: 1s;
+    }
+  
+    .product__imageContainer  > img {
+      max-height: 200px;
+      object-fit: contain;
+   
+    }
+
+    .product > button {
+
+      margin-bottom: 1vh;
+
+    }
+  }

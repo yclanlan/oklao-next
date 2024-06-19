@@ -1,0 +1,138 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0 0 0;
+  /* background-color: #F4F2F5; */
+}
+
+.home__image {
+  width: 100%;
+  z-index: 1;
+  object-fit: cover ;
+}
+
+.home__container {
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.9));
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+}
+
+.home__title{
+  font-family:  "Archivo Black";
+  /* letter-spacing:0.5rem; */
+  color: #ff5900;
+  font-size: 3rem;
+  font-weight: 800;
+  display: flex;
+  margin:auto;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+
+}
+.home__row_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px 20px;
+  justify-content: center; 
+  padding: 0 10vw; 
+  margin: 0 auto; 
+  /* background-color:#F4F2F5 ; */
+}
+
+.home__row {
+  flex: 0 0 calc(33.33% - 20px); 
+  margin-bottom: 5vh;
+}
+
+.product__section1{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product__section2{
+  background: #F4F2F5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product__section3{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+  .home__image {
+    object-fit:cover;
+    object-position: center; 
+    height: 60vh;
+    z-index: 1;
+  }
+
+  .product__section1{
+   
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .product__section2{
+    background: #F4F2F5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .product__section3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  .home__row_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto ; 
+    padding: 0;
+  }
+
+
+  .home__row {
+   
+    display: flex;
+    flex-direction:row;
+    margin: 0;
+    margin-bottom: 1vh;
+    justify-content: center;
+    flex-basis: 0;
+
+    
+  }
+
+  .home__title{
+
+    font-size: 2.3rem;
+  }
+
+}
+
