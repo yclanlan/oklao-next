@@ -68,7 +68,7 @@ function Product({ id,  title, category, description, image, price, rating }) {
 
   
 
-      <button key={id} onClick={addToBasket}>Add to Cart</button>
+      <button key={id} onClick={addToBasket(id)}>Add to Cart</button>
     </div>
   );
 }
