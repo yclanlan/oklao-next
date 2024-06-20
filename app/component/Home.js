@@ -33,6 +33,7 @@ function Home() {
         {bestSeller.map(product => (
           <div key={product.id} className="home__row">
             <Product
+              key={product.key}
               id={product.id}
               title={product.title}
               category={product.category}
@@ -55,6 +56,7 @@ function Home() {
           {coffeeBag.map(product => (
             <div key={product.id} className="home__row">
               <Product
+                key={product.key}
                 id={product.id}
                 title={product.title}
                 category={product.category}
@@ -79,6 +81,7 @@ function Home() {
           {coffeeBox.map(product => (
             <div key={product.id} className="home__row">
               <Product
+              key={product.key}
                 id={product.id}
                 title={product.title}
                 category={product.category}
@@ -95,6 +98,7 @@ function Home() {
           {coffeeBox2.map(product => (
             <div key={product.id} className="home__row">
               <Product
+              key={product.key}
                 id={product.id}
                 title={product.title}
                 category={product.category}
