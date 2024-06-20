@@ -12,7 +12,8 @@ function Product({ id,  title, category, description, image, price, rating }) {
     dispatch({
       type: "ADD_TO_BASKET",
       item: {
-        key: key,
+        // key: key,
+        // id: id,
         title: title,
         category:category,
         description: description,

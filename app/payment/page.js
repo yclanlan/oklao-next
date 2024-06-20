@@ -10,6 +10,7 @@ import CheckoutProduct from "../component/products/CheckoutProduct";
 import Header from "../component/header/Header";
 import { CardElement } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
+import NumberFormat from 'react-number-format';
 import { getBasketTotal } from "../component/context/Reducer";
 
 function Payment() {
