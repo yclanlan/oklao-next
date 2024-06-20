@@ -12,7 +12,6 @@ function Product({ id,  title, category, description, image, price, rating }) {
     dispatch({
       type: "ADD_TO_BASKET",
       item: {
-        
         id: id,
         title: title,
         category:category,
@@ -69,7 +68,7 @@ function Product({ id,  title, category, description, image, price, rating }) {
 
   
 
-      <button onClick={addToBasket}>Add to Cart</button>
+      <button key={id} onClick={addToBasket}>Add to Cart</button>
     </div>
   );
 }
