@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css';
+import './DisplayProduct.css';
 import Product from './Product';
 import data from './data';
 import Image from 'next/image';
