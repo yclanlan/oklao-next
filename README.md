@@ -1,3 +1,53 @@
+# OKLAO Coffee: Rebranding + E-commerce Web Design
+
+Welcome to OKLAO, a branding redesign and demonstration of various web development technologies and features combined to create an e-commerce platform.  <br/><br/>
+
+![-2024-05-22-2 38 50](https://github.com/yclanlan/oklao-next/assets/97862198/baa5dd18-6b54-4c6a-9809-a330403ebccb)
+
+
+## Explore the Demo:  https://oklao-next.vercel.app/
+<br/><br/><br/>
+
+To get started, follow these steps to set up your testing account:
+
+### Option 1: Create a Test Account
+
+Click on "Sign Up" on the demo website.
+Follow the on-screen instructions to create a unique account using your email and a secure password. <br/><br/>
+
+### Option 2: Use the Shared Testing Account 
+
+* Account: testtest@gmail.com <br/>
+* Password: 123456
+* Testing Card NUmber : 5555 5555 5555 4444
+
+<br/><br/>
+ Happy testing!
+
+<br/><br/>
+
+## Technologies Used
+* Next.js
+* React.js
+* Express.js
+* Firebase Hosting
+* Firebase Authentication
+* Firebase Storage
+* React-Dom
+* Stripe API...
+<br/><br/>
+
+## Features
+* Login and Logout functionality using Firebase Authentication.
+* Add products to the cart and remove them.
+* Secure payment processing with Stripe API integration.
+
+<br/><br/>
+
+
+==== Next.js ====
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
