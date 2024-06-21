@@ -1,20 +1,21 @@
 'use client'
 import React, { useState } from 'react';
 import './Payment.css';
-import { useStateValue } from "../../component/context/StateProvider";
-
 
 import { useRouter } from 'next/navigation';
-import  Link  from "next/link";
-import CheckoutProduct from "../../component/products/CheckoutProduct";
+import Link from "next/link";
+
 import Header from "../../component/header/Header";
-import { CardElement } from "@stripe/react-stripe-js";
-import CurrencyFormat from "react-currency-format";
-import NumberFormat from 'react-number-format';
+import CheckoutProduct from "../../component/products/CheckoutProduct";
+import { useStateValue } from "../../component/context/StateProvider";
 import { getBasketTotal } from "../../component/context/Reducer";
 
+import { CardElement } from "@stripe/react-stripe-js";
+import CurrencyFormat from "react-currency-format";
+
+
 function Payment() {
-    const router = useRouter();
+  const router = useRouter();
   const [{ basket, user }, dispatch] = useStateValue();
   
   const [error, setError] = useState(null);
