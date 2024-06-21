@@ -1,17 +1,17 @@
 'use client'
 import React, { useState } from 'react';
 import './Payment.css';
-import { useStateValue } from "../component/context/StateProvider";
+import { useStateValue } from "../../component/context/StateProvider";
 
 
 import { useRouter } from 'next/navigation';
 import  Link  from "next/link";
-import CheckoutProduct from "../component/products/CheckoutProduct";
-import Header from "../component/header/Header";
+import CheckoutProduct from "../../component/products/CheckoutProduct";
+import Header from "../../component/header/Header";
 import { CardElement } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
 import NumberFormat from 'react-number-format';
-import { getBasketTotal } from "../component/context/Reducer";
+import { getBasketTotal } from "../../component/context/Reducer";
 
 function Payment() {
     const router = useRouter();

@@ -1,6 +1,6 @@
 'use client'
-import { StateProvider } from './component/context/StateProvider';
-import reducer, { initialState } from './component/context/Reducer';
+import { StateProvider } from '../component/context/StateProvider';
+import reducer, { initialState } from '../component/context/Reducer';
 
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';

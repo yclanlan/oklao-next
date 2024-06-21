@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import './login.css'
 import { useRouter } from 'next/navigation';
 import  Link  from "next/link";
-import Header from "../component/header/Header";
-import { useStateValue } from "../component/context/StateProvider";
-import { auth } from "../component/database/firebase";
+import Header from "../../component/header/Header";
+import { useStateValue } from "../../component/context/StateProvider";
+import { auth } from "../../component/database/firebase";
 
 
 function Login() {
