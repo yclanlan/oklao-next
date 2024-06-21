@@ -2,8 +2,8 @@
 'use client'
 import React from 'react';
 import './Order.css';
-import Header from "../component/header/Header";
-import { useStateValue } from '../component/context/StateProvider';
+import Header from "../../component/header/Header";
+import { useStateValue } from '../../component/context/StateProvider';
 
 function Order() {
     const [{ orders }] = useStateValue();
