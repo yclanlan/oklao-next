@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import Product from './products/Product';
+import Product from './Product';
 import data from './data';
 import Image from 'next/image';
 
