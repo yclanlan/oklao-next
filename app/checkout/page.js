@@ -1,10 +1,10 @@
 'use client'
 import React from "react";
 import "./CheckOut.css";
-import Header from "../component/header/Header"
-import Subtotal from "../component/products/Subtotal";
+import Header from "../../component/header/Header"
+import Subtotal from "../../component/products/Subtotal";
 import { useStateValue } from "../component/context/StateProvider";
-import CheckoutProduct from "../component/products/CheckoutProduct";
+import CheckoutProduct from "../../component/products/CheckoutProduct";
 
 function Checkout() {
   const [{ basket, user }] = useStateValue();
