@@ -73,7 +73,7 @@
   }
   
 
-  .product__brand{
+  .product__brand-title{
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -88,9 +88,8 @@
    
   }
 
-  .product__brand > p{
+  .product__brand-title > p{
     margin: 0;
-
   }
 
   .product__brand-category{

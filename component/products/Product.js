@@ -32,7 +32,9 @@ function Product({ id,  title, category, description, image, price, rating }) {
           
         
         <hr style={{ border:"1px solid #000",marginTop:"3vh",marginBottom:"10px"}} />
+            <div className="product__brand-title">
             <p>{title}</p>
+            </div>
             <div className="product__brand-category">
             <p>{category}</p>
             </div>
