@@ -42,12 +42,21 @@
 .checkoutProduct__rating {
     display: flex;
     color:#ff5900;
+    margin:0;
   }
+
+  .checkoutProduct__rating > p {
+    margin:0;
+  }
+
+
 
 .checkoutProduct__title {
     font-family: "Sofia Sans Extra Condensed";
     font-size: 1.8rem;
     font-weight: 400;
+    margin:0;
+
 }
 
 .checkoutProduct__price {
@@ -55,6 +64,7 @@
     font-weight: 400;
     padding-top: 4px;
     padding-bottom: 10px;
+    margin:0;
   }
 
 
