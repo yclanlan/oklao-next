@@ -2,11 +2,13 @@
 
 import React from 'react';
 import './Index.css';
+
 import Product from '../component/products/Product';
 import data from '../component/products/data';
 import Image from 'next/image';
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+
 
 
 

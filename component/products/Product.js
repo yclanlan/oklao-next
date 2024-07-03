@@ -36,8 +36,8 @@ function Product({ id,  title, category, description, image, price, rating }) {
             <div className="product__brand-category">
             <p>{category}</p>
             </div>
-            
             <br></br>
+           
             <div className="product__imageContainer">
             <img src={image} alt="" />
             </div>
