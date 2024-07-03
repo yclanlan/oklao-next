@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
 
 .product {
     display: flex;
@@ -40,6 +39,7 @@
     max-height: 300px;
     width: 100%;
     object-fit: contain;
+    margin-top: 1.5rem;
     margin-bottom: 15px;
     z-index: 1;
     transition: 1s;
@@ -79,7 +79,7 @@
     flex-direction: column;
     justify-content: left;
     text-align: left;
-    font-family: "Sofia Sans Extra Condensed";
+    font-family: 'Sofia Sans Extra Condensed';
     font-optical-sizing: auto;
     font-weight:480;
     font-style: normal;
