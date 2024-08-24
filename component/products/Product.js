@@ -4,7 +4,7 @@ import "./Product.css";
 import { useStateValue } from "../context/StateProvider";
 
 
-function Product({ id,  title, category, description, image, price, rating }) {
+function Product({ id, title, category, description, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -15,11 +15,12 @@ function Product({ id,  title, category, description, image, price, rating }) {
        
         id: id,
         title: title,
-        category:category,
+        category: category,
         description: description,
         image: image,
         price: price,
         rating: rating,
+
       },
     });
   };
@@ -28,15 +29,15 @@ function Product({ id,  title, category, description, image, price, rating }) {
     <div className="product">
 
 
-        <div className="product__brand">
-          
-        
-        <hr style={{ border:"1px solid #000",marginTop:"3vh",marginBottom:"10px"}} />
+        <hr style={{ border:"1px solid #000",marginTop:"3vh",marginBottom:"10px", width:"90%"}} />
             <div className="product__brand-title">
-            <p>{title}</p>
+            <p> {title} </p>
             </div>
+          
             <div className="product__brand-category">
+            
             <p>{category}</p>
+            
             </div>
             <br></br>
            
@@ -44,7 +45,7 @@ function Product({ id,  title, category, description, image, price, rating }) {
             <img src={image} alt="" />
             </div>
             
-        </div>
+     
         <br/>
 
       <div className="product__info_description">

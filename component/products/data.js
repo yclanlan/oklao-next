@@ -4,12 +4,12 @@ const data = [
     {
         id: "001",
         key:"001",
-        title: "PANAMA GEISHA ",
+        title: "Feiry Bunny - Animal Series",
         category:"Drip Bag (10packs)",
-        description: " Cherry, cream, blackberry, peach, vanilla, honey, cocoa, cantaloupe, smooth body with rich layers of flavor.",
+        description: "Sweet orange and vanilla cream with a hint of honey warmth. ",
         price: 22.5,
         rating: 5,
-        image: "../image/box-coffee.png"
+        image: "../image/FeiryBunny.png"
       },
 
       {
@@ -41,68 +41,69 @@ const data = [
       {
         id: "004",
         key:"004",
-        title: "PANAMA GEISHA ",
-        category:"Drip Bag Coffee Box (10packs)",
-        description: " Cherry, cream, blackberry, peach, vanilla, honey, cocoa, cantaloupe, smooth body with rich layers of flavor.",
-        price: 25.5,
+        title: "Feiry Bunny",
+        category:"Drip Bag (10packs)",
+        origin:"Costa Rica / Medium-Light Roast",
+        description: "Sweet orange and vanilla cream with a hint of honey warmth. ",
+        price: 22.5,
         rating: 5,
-        image: "../image/box-coffee.png"
+        image: "../image/FeiryBunny.png"
       },
 
       {
         id: "005",
         key:"005",
-        title: "Jorge Eliécer Alba Imbachi",
-        category:"Drip Bag Coffee Box (10packs)",
-        description: " lemonade-like acidity, excellent berry complexity and a floral transparency.",
+        title: "Long-Eared Bunny",
+        category:"Drip Bag (10packs)",
+        description: " Bright citrus notes with an almond nutty base, finishing with a delicate smoothness.",
         price: 23,
         rating: 5,
-        image: "../image/box-coffee-yellow.png"
+        image: "../image/LongEar.png"
       },
 
       {
         id: "006",
         key:"006",
-        title: "OKLAO Blend",
-        category:"Drip Bag Coffee Box (10packs)",
-        description: "certified organic coffees from Central and South America with coffee from Sumatra, Indonesia.",
+        title: "Shy Bunny",
+        category:"Drip Bag (10packs)",
+        description: "Delicate jasmine flower with the sweetness of white peach,perfect for those who enjoy subtle flavors.",
         price: 20,
         rating: 5,
-        image: "../image/box-coffee-black.png"
+        image: "../image/ShyBunny.png"
       },
 
 
       {
         id: "007",
         key:"007",
-        title: "Edivaldo Cunha",
-        category:"Drip Bag Coffee Box (10packs)",
-        description: "hibiscus, sweet cranberry, and honey.",
+        title: "Whiskered Cat ",
+        category:"Drip Bag (10packs)",
+        description: "Rich dark chocolate and roasted nuts with a subtle smoky undertone.",
         price: 22,
         rating: 4,
-        image: "../image/box-coffee-blue.png"
+        image: "../image/WhiskeredCat .png"
       },
 
       {
         id: "008",
         key:"008",
-        title: "ETHIOPIA Yirgacheffe G1",
-        category:"Drip Bag Coffee Box (10packs)",
-        description: "The flavor of Darjeeling black tea, the sweetness of peach, the elegant floral aroma, and the aroma of lemon and blueberry.",
+        title: "Playful Dog",
+        category:"Drip Bag (10packs)",
+        description: "Earthy hazelnut and sweet milk chocolate.",
         price: 20.5,
         rating: 4,
-        image: "../image/box-coffee-darkblue.png"
+        image: "../image/PlayfulDog.png"
       },
 
       {
         id: "009",
         key:"009",
-        title: "Fabiano Nali",
-        category:"Drip Bag Coffee Box (10packs)",
-        description: "red currant, orange blossom, and red tea.",
+        title: "Curly Mouse",
+        category:"Drip Bag (10packs)",
+        description: "Sweet milk chocolate and vanilla with a tropical coconut twist. ",
         price: 24,
         rating: 5,
-        image: "../image/box-coffee-green.png"
+        image: "../image/CurlyMouse.png"
       },
 
 

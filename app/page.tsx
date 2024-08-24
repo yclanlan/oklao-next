@@ -60,67 +60,70 @@ export default function Index() {
 
       <div className="product__section2">
 
-      <div className="home__title">Whole Bean </div>
+      <div className="home__title">Drip Bag </div>
 
-          <div className="home__row_wrapper">
-          {coffeeBag.map(product => (
-            <div key={product.id} className="home__row">
-              <Product
-                key={product.key}
-                id={product.id}
-                title={product.title}
-                category={product.category}
-                description={product.description}
-                price={product.price}
-                rating={product.rating}
-                image={product.image}
-              />
-            </div>
-            
-          ))}
-          </div>
-          <br/>
+<div className="home__row_wrapper">
+{coffeeBox.map(product => (
+  <div key={product.id} className="home__row">
+    <Product
+    key={product.key}
+      id={product.id}
+      title={product.title}
+      category={product.category}
+      description={product.description}
+      price={product.price}
+      rating={product.rating}
+      image={product.image}
+    />
+  </div>
+))}
+</div>
+
+<div className="home__row_wrapper">
+{coffeeBox2.map(product => (
+  <div key={product.id} className="home__row">
+    <Product
+    key={product.key}
+      id={product.id}
+      title={product.title}
+      category={product.category}
+      description={product.description}
+      price={product.price}
+      rating={product.rating}
+      image={product.image}
+    />
+  </div>
+))}
+</div>
+<br/>
+
+      
         
       </div>
 
       <div className="product__section3">
 
-      <div className="home__title">Drip Bag </div>
 
-          <div className="home__row_wrapper">
-          {coffeeBox.map(product => (
-            <div key={product.id} className="home__row">
-              <Product
-              key={product.key}
-                id={product.id}
-                title={product.title}
-                category={product.category}
-                description={product.description}
-                price={product.price}
-                rating={product.rating}
-                image={product.image}
-              />
-            </div>
-          ))}
-          </div>
+<div className="home__title">Whole Bean </div>
 
-          <div className="home__row_wrapper">
-          {coffeeBox2.map(product => (
-            <div key={product.id} className="home__row">
-              <Product
-              key={product.key}
-                id={product.id}
-                title={product.title}
-                category={product.category}
-                description={product.description}
-                price={product.price}
-                rating={product.rating}
-                image={product.image}
-              />
-            </div>
-          ))}
-          </div>
-          <br/>
+<div className="home__row_wrapper">
+{coffeeBag.map(product => (
+  <div key={product.id} className="home__row">
+    <Product
+      key={product.key}
+      id={product.id}
+      title={product.title}
+      category={product.category}
+      description={product.description}
+      price={product.price}
+      rating={product.rating}
+      image={product.image}
+    />
+  </div>
+  
+))}
+</div>
+<br/>
 
 
 
@@ -132,3 +135,5 @@ export default function Index() {
   </>
   );
 }
+
+
