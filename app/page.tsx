@@ -28,7 +28,7 @@ export default function Index() {
       <div className="home__container">
         <Image
           className="home__image"
-          src="/image/oklao-key.jpg"
+          src="/image/oklao-key-2.jpg"
           width={4000}
           height={500}
           alt="heroimg"

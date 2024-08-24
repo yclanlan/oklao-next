@@ -128,7 +128,7 @@ const data = [
         description: "certified organic coffees from Central and South America with coffee from Sumatra, Indonesia.",
         price: 24,
         rating: 5,
-        image: "../image/coffee-bag-black.png"
+        image: "../image/oklao-blend.png"
       },
 
       {
